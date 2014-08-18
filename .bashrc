@@ -145,7 +145,7 @@ if [ "$PS1" ]; then
     shopt -s checkwinsize
 
     #Prompt edited from default
-    [ "$PS1" = "\\s-\\v\\\$ " ] && PS1="[\u \w]\\$ "
+#    [ "$PS1" = "\\s-\\v\\\$ " ] && PS1="[\u \w]\\$ "
 
     if [ "x$SHLVL" != "x1" ]; then # We're not a login shell
         for i in /etc/profile.d/*.sh; do
